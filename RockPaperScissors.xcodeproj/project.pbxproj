@@ -14,6 +14,8 @@
 		9C7CF6512B898DBC008CD7AC /* RockPaperScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7CF6502B898DBC008CD7AC /* RockPaperScissorsTests.swift */; };
 		9C7CF65B2B898DBC008CD7AC /* RockPaperScissorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7CF65A2B898DBC008CD7AC /* RockPaperScissorsUITests.swift */; };
 		9C7CF65D2B898DBC008CD7AC /* RockPaperScissorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7CF65C2B898DBC008CD7AC /* RockPaperScissorsUITestsLaunchTests.swift */; };
+		9C7CF66A2B8AD58F008CD7AC /* NeumorphicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7CF6692B8AD58F008CD7AC /* NeumorphicButton.swift */; };
+		9C7CF66C2B8B1392008CD7AC /* NeumorphicText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7CF66B2B8B1392008CD7AC /* NeumorphicText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		9C7CF6562B898DBC008CD7AC /* RockPaperScissorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7CF65A2B898DBC008CD7AC /* RockPaperScissorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsUITests.swift; sourceTree = "<group>"; };
 		9C7CF65C2B898DBC008CD7AC /* RockPaperScissorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9C7CF6692B8AD58F008CD7AC /* NeumorphicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButton.swift; sourceTree = "<group>"; };
+		9C7CF66B2B8B1392008CD7AC /* NeumorphicText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		9C7CF63E2B898DB9008CD7AC /* RockPaperScissors */ = {
 			isa = PBXGroup;
 			children = (
+				9C7CF66B2B8B1392008CD7AC /* NeumorphicText.swift */,
+				9C7CF6692B8AD58F008CD7AC /* NeumorphicButton.swift */,
 				9C7CF63F2B898DB9008CD7AC /* RockPaperScissorsApp.swift */,
 				9C7CF6412B898DB9008CD7AC /* ContentView.swift */,
 				9C7CF6432B898DBC008CD7AC /* Assets.xcassets */,
@@ -259,6 +265,8 @@
 			files = (
 				9C7CF6422B898DB9008CD7AC /* ContentView.swift in Sources */,
 				9C7CF6402B898DB9008CD7AC /* RockPaperScissorsApp.swift in Sources */,
+				9C7CF66C2B8B1392008CD7AC /* NeumorphicText.swift in Sources */,
+				9C7CF66A2B8AD58F008CD7AC /* NeumorphicButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

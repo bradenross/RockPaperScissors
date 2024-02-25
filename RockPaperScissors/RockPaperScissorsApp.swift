@@ -11,7 +11,13 @@ import SwiftUI
 struct RockPaperScissorsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack(){
+                Color.offWhite
+                    .ignoresSafeArea()
+                ContentView()
+                    .environment(\.colorScheme, .light)
+                    .preferredColorScheme(.light)
+            }
         }
     }
 }
